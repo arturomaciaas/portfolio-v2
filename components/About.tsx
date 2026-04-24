@@ -12,29 +12,25 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4 leading-relaxed">
-          I'm an Artificial Intelligence Engineer with expertise in building accessible, 
-          intelligent systems. I take pride in crafting thoughtful, inclusive products and 
-          have a sharp eye for the little details that elevate user experience. I do my best 
-          work at the intersection of design and engineering, where great UX meets clean, 
-          scalable code.
+          I'm an artificial intelligence engineer with expertise in building accessible,
+          intelligent systems. I like coding useful tools and look out for the little details
+          that elevate user experience.
         </p>
         <p className="mb-4 leading-relaxed">
-          Currently, I'm focused on developing cutting-edge AI solutions, working with 
-          machine learning models, natural language processing, and computer vision. I lead 
-          engineering efforts across components, tooling, and patterns, partnering closely 
-          with cross-functional teams to ensure AI capabilities are built into the foundation 
-          of our products.
+          Right now I'm working with AI agent frameworks and machine learning models for 
+          digital signal processing. I also lead the team at Webra, where we build fullstack 
+          websites and integrate AI where it actually makes sense.
         </p>
         <p className="mb-4 leading-relaxed">
-          Previously, I've worked across a wide range of environments — from product studios 
-          to startups and large tech companies. Outside of my day-to-day work, I also enjoy 
-          exploring new AI research, building side projects, and contributing to open-source 
-          initiatives.
+          I've worked at startups like Webra and Stamn, and at fintech companies like Urdaten. 
+          On the side, I built an AI vocal remover using deep learning audio processing. I'm planning 
+          to add support for more instruments when I get the time.
         </p>
         <p className="leading-relaxed">
-          In my spare time, you can usually find me experimenting with new AI models, reading 
-          research papers, or working on personal projects that push the boundaries of what's 
-          possible with artificial intelligence.
+          In my free time, you can usually find me studying (no, really) cloud and cybersecurity
+          concepts. I also like to constantly modify my Linux configs or just try out different
+          distros. When I'm not in front of a computer screen, I'm probably playing tennis or
+          the guitar.
         </p>
       </div>
     </section>

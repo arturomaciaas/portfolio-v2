@@ -39,13 +39,13 @@ export default function Home() {
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                Arturo Macias
+                Arturo Macías
               </h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-nord-8 sm:text-xl">
                 Artificial Intelligence Engineer
               </h2>
               <p className="mt-4 max-w-xs leading-normal text-nord-4">
-                Building intelligent systems and crafting exceptional AI-driven experiences.
+                Building intelligent systems and exceptional AI-driven experiences.
               </p>
               <Navigation activeSection={activeSection} />
             </div>
