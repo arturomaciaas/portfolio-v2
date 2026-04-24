@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: black;
+    color: rgb(209 213 219);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(to right, rgb(45 212 191), rgb(13 148 136));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
