@@ -17,12 +17,12 @@ export async function POST(request: Request) {
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: "Portfolio Contact <onboarding@resend.dev>", // Update this with your verified domain
+      from: "AM Portfolio <onboarding@resend.dev>", // Update this with your verified domain
       to: "arturomaciaas@protonmail.com",
       replyTo: email,
-      subject: `Portfolio Contact from ${name}`,
+      subject: `New Message from ${name}`,
       html: `
-        <h2>New Contact Form Submission</h2>
+        <h2>You got mail fam</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Message:</strong></p>

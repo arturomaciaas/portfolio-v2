@@ -7,7 +7,7 @@ export default function Experience() {
       description:
         "Building web applications with Next.js and Supabase. Recent projects include a restaurant ordering system with Stripe integration, a biometric loyalty program using fingerprint auth, and a POS system with GPS tracking.",
       technologies: ["Next.js", "Typescript", "Supabase", "Vercel", "Stripe", "Resend", "Cloudflare"],
-      link: null,
+      link: undefined,
     },
     {
       period: "FEB 2026 — APR 2026",
