@@ -22,15 +22,15 @@ export default function Navigation({ activeSection }: NavigationProps) {
               <span
                 className={`nav-indicator mr-4 h-px transition-all ${
                   activeSection === section.id
-                    ? "w-16 bg-teal-400"
-                    : "w-8 bg-gray-600 group-hover:w-16 group-hover:bg-gray-400"
+                    ? "w-16 bg-nord-8"
+                    : "w-8 bg-nord-3 group-hover:w-16 group-hover:bg-nord-4"
                 }`}
               ></span>
               <span
                 className={`nav-text text-xs font-bold uppercase tracking-widest ${
                   activeSection === section.id
-                    ? "text-teal-400"
-                    : "text-gray-500 group-hover:text-gray-300"
+                    ? "text-nord-8"
+                    : "text-nord-3 group-hover:text-nord-5"
                 }`}
               >
                 {section.label}

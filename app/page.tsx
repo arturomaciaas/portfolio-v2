@@ -41,10 +41,10 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
                 Arturo Macias
               </h1>
-              <h2 className="mt-3 text-lg font-medium tracking-tight text-teal-400 sm:text-xl">
+              <h2 className="mt-3 text-lg font-medium tracking-tight text-nord-8 sm:text-xl">
                 Artificial Intelligence Engineer
               </h2>
-              <p className="mt-4 max-w-xs leading-normal text-gray-400">
+              <p className="mt-4 max-w-xs leading-normal text-nord-4">
                 Building intelligent systems and crafting exceptional AI-driven experiences.
               </p>
               <Navigation activeSection={activeSection} />
@@ -52,7 +52,7 @@ export default function Home() {
             <ul className="ml-1 mt-8 flex items-center gap-5" aria-label="Social media">
               <li className="text-xs">
                 <a
-                  className="block hover:text-teal-400 transition-colors"
+                  className="block hover:text-nord-8 transition-colors"
                   href="https://github.com/arturomaciaas"
                   target="_blank"
                   rel="noreferrer"
@@ -71,7 +71,7 @@ export default function Home() {
               </li>
               <li className="text-xs">
                 <a
-                  className="block hover:text-teal-400 transition-colors"
+                  className="block hover:text-nord-8 transition-colors"
                   href="https://www.linkedin.com/in/arturomaciaas/"
                   target="_blank"
                   rel="noreferrer"

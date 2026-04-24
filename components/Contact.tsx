@@ -50,8 +50,8 @@ export default function Contact() {
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
       aria-label="Contact me"
     >
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-black/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-gray-200 lg:sr-only">
+      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-nord-0/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-nord-6 lg:sr-only">
           Contact
         </h2>
       </div>
@@ -62,7 +62,7 @@ export default function Contact() {
         </p>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
+            <label htmlFor="name" className="block text-sm font-medium text-nord-5 mb-2">
               Name
             </label>
             <input
@@ -72,11 +72,11 @@ export default function Contact() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 bg-gray-800/50 border border-gray-700 rounded-md text-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-colors"
+              className="w-full px-4 py-2 bg-nord-1/50 border border-nord-2 rounded-md text-nord-6 focus:outline-none focus:ring-2 focus:ring-nord-8 focus:border-transparent transition-colors"
             />
           </div>
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
+            <label htmlFor="email" className="block text-sm font-medium text-nord-5 mb-2">
               Email
             </label>
             <input
@@ -86,11 +86,11 @@ export default function Contact() {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 bg-gray-800/50 border border-gray-700 rounded-md text-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-colors"
+              className="w-full px-4 py-2 bg-nord-1/50 border border-nord-2 rounded-md text-nord-6 focus:outline-none focus:ring-2 focus:ring-nord-8 focus:border-transparent transition-colors"
             />
           </div>
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
+            <label htmlFor="message" className="block text-sm font-medium text-nord-5 mb-2">
               Message
             </label>
             <textarea
@@ -100,29 +100,29 @@ export default function Contact() {
               onChange={handleChange}
               required
               rows={5}
-              className="w-full px-4 py-2 bg-gray-800/50 border border-gray-700 rounded-md text-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-colors resize-none"
+              className="w-full px-4 py-2 bg-nord-1/50 border border-nord-2 rounded-md text-nord-6 focus:outline-none focus:ring-2 focus:ring-nord-8 focus:border-transparent transition-colors resize-none"
             />
           </div>
           {status === "error" && (
-            <p className="text-red-400 text-sm">{errorMessage}</p>
+            <p className="text-nord-11 text-sm">{errorMessage}</p>
           )}
           {status === "success" && (
-            <p className="text-teal-400 text-sm">Message sent successfully! I'll get back to you soon.</p>
+            <p className="text-nord-14 text-sm">Message sent successfully! I'll get back to you soon.</p>
           )}
           <button
             type="submit"
             disabled={status === "loading"}
-            className="px-6 py-3 bg-teal-400/10 text-teal-400 rounded-md font-medium hover:bg-teal-400/20 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 focus:ring-offset-black transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="px-6 py-3 bg-nord-8/10 text-nord-8 rounded-md font-medium hover:bg-nord-8/20 focus:outline-none focus:ring-2 focus:ring-nord-8 focus:ring-offset-2 focus:ring-offset-nord-0 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {status === "loading" ? "Sending..." : "Send Message"}
           </button>
         </form>
-        <div className="mt-8 pt-8 border-t border-gray-800">
-          <p className="text-sm text-gray-400">
+        <div className="mt-8 pt-8 border-t border-nord-2">
+          <p className="text-sm text-nord-4">
             Or email me directly at{" "}
             <a
               href="mailto:arturomaciaas@protonmail.com"
-              className="text-teal-400 hover:underline"
+              className="text-nord-8 hover:underline"
             >
               arturomaciaas@protonmail.com
             </a>

@@ -9,10 +9,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        teal: {
-          400: '#2dd4bf',
-          500: '#14b8a6',
-          600: '#0d9488',
+        // Nord color palette
+        nord: {
+          // Polar Night (backgrounds)
+          0: '#2E3440',
+          1: '#3B4252',
+          2: '#434C5E',
+          3: '#4C566A',
+          // Snow Storm (text)
+          4: '#D8DEE9',
+          5: '#E5E9F0',
+          6: '#ECEFF4',
+          // Frost (accents)
+          7: '#8FBCBB',
+          8: '#88C0D0',
+          9: '#81A1C1',
+          10: '#5E81AC',
+          // Aurora (highlights)
+          11: '#BF616A', // red
+          12: '#D08770', // orange
+          13: '#EBCB8B', // yellow
+          14: '#A3BE8C', // green
+          15: '#B48EAD', // purple
         },
       },
     },
