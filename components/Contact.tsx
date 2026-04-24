@@ -57,8 +57,7 @@ export default function Contact() {
       </div>
       <div>
         <p className="mb-8 leading-relaxed">
-          I'm always interested in hearing about new opportunities, collaborations, or just 
-          chatting about AI and technology. Feel free to reach out!
+          I'm always interested in hearing about new opportunities or collaborations. Feel free to reach out!
         </p>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>

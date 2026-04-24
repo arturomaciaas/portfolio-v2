@@ -1,31 +1,31 @@
 export default function Experience() {
   const experiences = [
     {
-      period: "2024 — PRESENT",
-      title: "Senior AI Engineer",
-      company: "Tech Company",
+      period: "2025 — PRESENT",
+      title: "Full Stack Developer",
+      company: "Webra",
       description:
-        "Build and maintain critical AI infrastructure and machine learning pipelines. Work closely with cross-functional teams to implement and deploy state-of-the-art models for production environments.",
-      technologies: ["Python", "TensorFlow", "PyTorch", "AWS", "Docker"],
-      link: "#",
+        "Building web applications with Next.js and Supabase. Recent projects include a restaurant ordering system with Stripe integration, a biometric loyalty program using fingerprint auth, and a POS system with GPS tracking.",
+      technologies: ["Next.js", "Typescript", "Supabase", "Vercel", "Stripe", "Resend", "Cloudflare"],
+      link: null,
     },
     {
-      period: "2022 — 2024",
-      title: "Machine Learning Engineer",
-      company: "AI Startup",
+      period: "FEB 2026 — APR 2026",
+      title: "Artificial Intelligence Engineer",
+      company: "Stamn",
       description:
-        "Developed and deployed machine learning models for natural language processing and computer vision applications. Collaborated with product teams to integrate AI capabilities into customer-facing features.",
-      technologies: ["Python", "Scikit-learn", "Keras", "FastAPI", "PostgreSQL"],
-      link: "#",
+        "Built 4 autonomous AI agents that run 24/7 for Twitter automation, brand monitoring, and trend analysis. Created custom TypeScript skills that chain web scraping, LLM reasoning, and automated posting.",
+      technologies: ["TypeScript", "OpenClaw", "Firecrawl", "OpenRouter", "Linux"],
+      link: "https://stamn.com",
     },
     {
-      period: "2020 — 2022",
-      title: "AI Research Intern",
-      company: "Research Lab",
+      period: "2024 — 2025",
+      title: "Machine Learning Engineering Intern",
+      company: "Urdaten",
       description:
-        "Conducted research on deep learning architectures and contributed to published papers. Implemented novel algorithms and evaluated their performance on benchmark datasets.",
-      technologies: ["Python", "JAX", "NumPy", "Pandas", "Jupyter"],
-      link: "#",
+        "Replaced OpenAI's API with self-hosted open-source models, cutting costs by 90%. Rebuilt the document extraction pipeline using vision-language models instead of OCR, reducing manual fixes by 80%. Built a document verification system using web scraping and LLM comparison.",
+      technologies: ["Python", "Azure AI Foundry", "OCR", "LLMs", "Computer Vision", "Linux"],
+      link: "https://urdaten.com",
     },
   ];
 
